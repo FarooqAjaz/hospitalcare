@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<font-family xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+<font-family
+    xmlns:android="http://schemas.android.com/apk/res/android">
     <font
         android:font="@font/inter_semi_bold"
-        android:fontStyle="normal"
-        tools:targetApi="o" />
+        android:fontStyle="normal" />
 </font-family>

@@ -122,8 +122,8 @@ internal fun HospitalCareInternal(
 }
 
 fun getListOfTabs() = listOf(
-    BottomTabItem(BottomTabs.Dashboard, R.string.home, R.drawable.ic_android),
-    BottomTabItem(BottomTabs.Doctors, R.string.home, R.drawable.ic_android),
-    BottomTabItem(BottomTabs.Notifications, R.string.home, R.drawable.ic_android),
-    BottomTabItem(BottomTabs.Profile, R.string.home, R.drawable.ic_android)
+    BottomTabItem(BottomTabs.Dashboard, R.string.home, R.drawable.ic_tab_home),
+    BottomTabItem(BottomTabs.Doctors, R.string.doctors, R.drawable.ic_doctor),
+    BottomTabItem(BottomTabs.Notifications, R.string.news, R.drawable.ic_news),
+    BottomTabItem(BottomTabs.Profile, R.string.profile, R.drawable.ic_profile)
 )

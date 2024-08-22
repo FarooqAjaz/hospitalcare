@@ -2,15 +2,7 @@ package com.components.hospitalcaresystem.presentation.theme
 
 import androidx.compose.ui.graphics.Color
 
-val Purple80 = Color(0xFFD0BCFF)
-val PurpleGrey80 = Color(0xFFCCC2DC)
-val Pink80 = Color(0xFFEFB8C8)
 
-val Purple40 = Color(0xFF6650a4)
-val PurpleGrey40 = Color(0xFF625b71)
-val Pink40 = Color(0xFF7D5260)
-
-//New Colors
 val md_theme_light_primary = Color(0xFF42C6C6)
 val md_theme_light_onPrimary = Color(0xFFFFFFFF)
 val md_theme_light_primaryContainer = Color(0xFFFFFFFF)
@@ -81,11 +73,86 @@ val md_theme_dark_surfaceTint = Color(0xFFFFB951)
 val md_theme_dark_outlineVariant = Color(0xFF4F4539)
 val md_theme_dark_scrim = Color(0xFF000000)
 val md_theme_dark_placeHolder = Color(0xFF777777)
+
+
 val Transparent = Color(0x00FFFFFF)
 val BlackOp70 = Color(0x80000000)
 val BlackOp50 = Color(0xB3000000)
+val Grey95 = Color(0xFF0C0D0D)
+val Grey90 = Color(0xFF1A1A1A)
+val Grey80 = Color(0xFF292929)
+val Grey70 = Color(0xFF313131)
+val Grey75 = Color(0xFF464646)
+val Grey60 = Color(0xFF5F5F5F)
+val Grey50 = Color(0xFF868686)
+val Grey40 = Color(0xFFAAAAAA)
+val Grey30 = Color(0xFFBDBDBD)
+val Grey20 = Color(0xFFCECECE)
+val Grey10 = Color(0xFFE2E2E2)
+
+val Teal90 = Color(0xFF031D25)
+val Teal80 = Color(0xFF031D25)
+val Teal70 = Color(0xB3031D25)
+
+val Aqua90 = Color(0xFF40CECE) //Primary
+val Aqua95 = Color(0xFF42C6C6)
+val Aqua80 = Color(0xFF26C1C1)
+val Aqua70 = Color(0xFF25C9BF)
+val Aqua50 = Color(0xFF17A4A4)
+val Aqua30 = Color(0xFF39BBBB)
+val Aqua20 = Color(0xFF63E3DC)
+
+val AquaGreen90 = Color(0xFF1BADA4)
+val AquaGreen80 = Color(0xFF509793)
+val AquaGreen70 = Color(0xFF509793)
+
+val DarkBlue90 = Color(0xFF001A9A)
+val LightBlue = Color(0xFF29A9EF)
+val LightBlue90 = Color(0xFF2CACE7)
+val LightBlue80 = Color(0xFF43B6EB)
+val LightBlue70 = Color(0xFF3FB1E5)
+val LightBlue60 = Color(0xFF6BBBE8)
+val LightBlue50 = Color(0xFF85CCE1)
+val LightBlue40 = Color(0xFF6E94BF)
+val LightBlue30 = Color(0xFFC6F6F6)
+val LightBlue20 = Color(0xFFD3F6F6)
+val LightBlue10 = Color(0xFFF7FFFE)
+
+
+val Green90 = Color(0xFF1F7150)
+val LightGreen = Color(0xFF5BB983)
+val LightGreen90 = Color(0xFF67BD8C)
+val LightGreen70 = Color(0xFF67BD8C)
+val LightGreen60 = Color(0xFF7EAD6C)
+val LightGreen10 = Color(0xFFD9EEDB)
+
+
+val Red90 = Color(0xFFEB0303)
+val Red80 = Color(0xFFC70039)
+val Orange90 = Color(0xFFE25508)
+val Orange80 = Color(0xFFE75A0D)
+val Orange70 = Color(0xFFDD7129)
+val Orange60 = Color(0xFFEC6F2B)
+val Orange50 = Color(0xFFDD7129)
+
+val LightOrange70 = Color(0xFFFF9F6A)
+val LightOrange60 = Color(0xFFE5AD99)
+val LightOrange50 = Color(0xFFFFF4DC)
+val LightOrange40 = Color(0xFFFFE6DD)
+val LightOrange30 = Color(0xFFFEF2E7)
+val LightOrange20 = Color(0xFFFFE6D9)
+val LightOrange10 = Color(0xFFFFDED2)
+
+
+val LightYellow = Color(0xFFF4C15C)
+val LightYellow90 = Color(0xFFE9C579)
+val LightYellow80 = Color(0xFFF4DFAE)
+val LightYellow70 = Color(0xFFF4DFAE)
+val LightYellow60 = Color(0xFFFFEFCB)
+val LightYellow50 = Color(0xFFFDF5D5)
+val LightYellow40 = Color(0xFFFFEFCB)
+val LightYellow30 = Color(0xFFFFEFCB)
+val LightYellow20 = Color(0xFFFFEFCB)
+val DisabledColor = Color(0xFFD1D1D1)
 val BORDER_GRAY = Color(0xFFDCDCDC)
 val BORDER_GRAY2 = Color(0x2ADCDCDC)
-val LightOrange60 = Color(0xFFE5AD99)
-val LightOrange40 = Color(0xFFFFE6DD)
-val Orange90 = Color(0xFFE25508)

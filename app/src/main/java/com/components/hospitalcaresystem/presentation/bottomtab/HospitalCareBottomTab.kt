@@ -73,23 +73,16 @@ fun BottomTab(
         .clickable { onClick(tab.type) }
         .padding(vertical = 5.dp),
         horizontalAlignment = Alignment.CenterHorizontally) {
-        if (tab.type == BottomTabs.Notifications) {
-            Spacer(modifier = Modifier.height(10.dp))
-            ResourceImage(image = R.drawable.ic_android)
-            Spacer(modifier = Modifier.height(4.dp))
-            Text(text = "Scan QR", style = MaterialTheme.typography.labelSmall, color = tintColor)
-        } else {
-            Spacer(modifier = Modifier.height(10.dp))
-            ResourceImage(
-                image = tab.iconRes,
-                modifier = Modifier.size(20.dp),
-                colorFilter = ColorFilter.tint(tintColor)
-            )
-            Spacer(modifier = Modifier.height(10.dp))
-            Text(
-                text = stringResource(id = tab.label), style = MaterialTheme.typography.labelSmall, color = tintColor
-            )
-        }
+        Spacer(modifier = Modifier.height(10.dp))
+        ResourceImage(
+            image = tab.iconRes,
+            modifier = Modifier.size(20.dp),
+            colorFilter = ColorFilter.tint(tintColor)
+        )
+        Spacer(modifier = Modifier.height(10.dp))
+        Text(
+            text = stringResource(id = tab.label), style = MaterialTheme.typography.labelSmall, color = tintColor
+        )
     }
 
 }
@@ -103,7 +96,6 @@ data class BottomTabItem(
 @Composable
 private fun PreviewHospitalBottomTab() {
     HospitalCareAppTheme(
-        language = "ur"
     ) {
         Surface(
             color = MaterialTheme.colorScheme.background
@@ -114,10 +106,10 @@ private fun PreviewHospitalBottomTab() {
                 Spacer(modifier = Modifier.weight(1f))
                 HospitalCareBottomTab(
                     tabs = listOf(
-                        BottomTabItem(BottomTabs.Dashboard, R.string.home, R.drawable.ic_android),
-                        BottomTabItem(BottomTabs.Doctors, R.string.home, R.drawable.ic_android),
-                        BottomTabItem(BottomTabs.Notifications, R.string.home, R.drawable.ic_android),
-                        BottomTabItem(BottomTabs.Profile, R.string.home, R.drawable.ic_android),
+                        BottomTabItem(BottomTabs.Dashboard, R.string.home, R.drawable.ic_tab_home),
+                        BottomTabItem(BottomTabs.Doctors, R.string.doctors, R.drawable.ic_doctor),
+                        BottomTabItem(BottomTabs.Notifications, R.string.news, R.drawable.ic_news),
+                        BottomTabItem(BottomTabs.Profile, R.string.profile, R.drawable.ic_profile),
                     )
                 )
             }

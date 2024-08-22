@@ -20,6 +20,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
@@ -80,44 +81,18 @@ fun DashboardHeader(
         HospitalContainerWithIcon(icon = R.drawable.ic_drawer_menu,
             modifier = Modifier.clickable {  onDrawerClick() },
             modifierContent = Modifier
-            .size(25.sdp)
-            .padding(6.sdp))
+                .size(25.sdp)
+                .padding(6.sdp))
 
-        Spacer(modifier = Modifier.width(8.dp))
-        Box {
-            HospitalContainerWithIcon(icon = R.drawable.ic_sms,
-                modifier = Modifier.clickable {  onSmsClick() },
-                modifierContent = Modifier
-                    .size(25.sdp)
-                    .padding(6.sdp))
-            if (smsCount.isNotEmpty() && smsCount != "0") {
-                Box(
-                    modifier = Modifier
-                        .size(18.sdp)
-                        .align(Alignment.TopEnd)
-                        .offset(x = 6.sdp, y = (-10).dp)
-                        .padding(2.sdp)
-                        .background(Color.Red, shape = RoundedCornerShape(25.sdp)),
-                    contentAlignment = Alignment.Center
-                ) {
-                    Text(
-                        text = smsCount,
-                        fontSize = 7.ssp,
-                        style = MaterialTheme.typography.titleMedium,
-                        color = Color.White,
-                        textAlign = TextAlign.Center
-                    )
-                }
-            }
-        }
         Spacer(modifier = Modifier.weight(1f))
-        ResourceImage(
-            image = R.drawable.ic_android,
-            modifier = Modifier.padding(end = 3.dp)
+        Text(
+            text = stringResource(id = R.string.app_name),
+            style = MaterialTheme.typography.labelLarge,
+            textAlign = TextAlign.Center
         )
         Spacer(modifier = Modifier.weight(1f))
         Box {
-            HospitalContainerWithIcon(icon = R.drawable.ic_zindigi_heading,
+            HospitalContainerWithIcon(icon = R.drawable.ic_bell,
                 modifier = Modifier.clickable {  onNotificationClick() },
                 modifierContent = Modifier
                     .size(25.sdp)
@@ -178,7 +153,7 @@ private fun PreviewHeaderAppBar() {
                 modifier = Modifier
             ) {
                 AppBarHeader(
-                    title = "Zindigi",
+                    title = "Hospital Care",
                     showDashboardHeader = true,
                     onDrawerClick = {},
                     onSmsClick = {},

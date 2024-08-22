@@ -11,4 +11,11 @@
     <string name="next">Next</string>
     <string name="select_category">Select Category</string>
     <string name="enter_your_mobile_number">Enter you Number</string>
+    <string name="logout">Logout</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="hi_welcome_back_you_ve_been_missed">Hi! Welcome back, you\'ve been missed</string>
+    <string name="sign_in">Sign In</string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+    <string name="password">Password</string>
+    <string name="news">News</string>
 </resources>

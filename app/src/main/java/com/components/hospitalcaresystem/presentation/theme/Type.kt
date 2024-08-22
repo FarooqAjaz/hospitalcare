@@ -11,9 +11,8 @@ import androidx.compose.ui.unit.sp
 import com.components.hospitalcaresystem.R
 import com.components.hospitalcaresystem.extensions.textSdp
 
-// Set of Material typography styles to start with
 
-val ZindigiFontFamily = FontFamily(
+val HospitalFontFamily = FontFamily(
     Font(R.font.font_family, FontWeight.Normal),
     Font(R.font.font_family_bold, FontWeight.Bold),
     Font(R.font.font_family_light, FontWeight.Light),
@@ -31,87 +30,57 @@ val Typography: Typography
         lineHeight = 24.sp,
         letterSpacing = 0.5.sp
     ),
-    displayLarge = TextStyle(
-        fontFamily = ZindigiFontFamily,
-        fontWeight = FontWeight.Normal,
-        fontSize = 42.textSdp,
-        lineHeight = 48.textSdp
-    ),
-    displayMedium = TextStyle(
-        fontFamily = ZindigiFontFamily,
-        fontWeight = FontWeight.Normal,
-        fontSize = 34.textSdp,
-        lineHeight = 36.textSdp
-    ),
-    displaySmall = TextStyle(
-        fontFamily = ZindigiFontFamily,
-        fontWeight = FontWeight.Normal,
-        fontSize = 27.textSdp,
-        lineHeight = 29.textSdp
-    ),
     headlineLarge = TextStyle(
-        fontFamily = ZindigiFontFamily,
+        fontFamily = HospitalFontFamily,
         fontWeight = FontWeight.Normal,
         fontSize = 24.textSdp,
         lineHeight = 25.textSdp
     ),
     headlineMedium = TextStyle(
-        fontFamily = ZindigiFontFamily,
+        fontFamily = HospitalFontFamily,
         fontWeight = FontWeight.Normal,
         fontSize = 21.textSdp,
         lineHeight = 88.textSdp
     ),
     headlineSmall = TextStyle(
-        fontFamily = ZindigiFontFamily,
+        fontFamily = HospitalFontFamily,
         fontWeight = FontWeight.Normal,
         fontSize = 18.textSdp,
         lineHeight = 19.textSdp
     ),
     titleLarge = TextStyle(
-        fontFamily = ZindigiFontFamily,
+        fontFamily = HospitalFontFamily,
         fontWeight = FontWeight.Normal,
         fontSize = 16.textSdp,
         lineHeight = 17.textSdp
     ),
     titleMedium = TextStyle(
-        fontFamily = ZindigiFontFamily,
+        fontFamily = HospitalFontFamily,
         fontWeight = FontWeight.Medium,
         color = MaterialTheme.colorScheme.primaryContainer,
         fontSize = 14.textSdp,
         lineHeight = 15.textSdp
     ),
     titleSmall = TextStyle(
-        fontFamily = ZindigiFontFamily,
+        fontFamily = HospitalFontFamily,
         fontWeight = FontWeight.Medium,
         fontSize = 13.textSdp,
         lineHeight = 14.textSdp
     ),
-    bodyMedium = TextStyle(
-        fontFamily = ZindigiFontFamily,
-        fontWeight = FontWeight.Normal,
-        fontSize = 11.textSdp,
-        lineHeight = 12.textSdp
-    ),
-    bodySmall = TextStyle(
-        fontFamily = ZindigiFontFamily,
-        fontWeight = FontWeight.Normal,
-        fontSize = 9.textSdp,
-        lineHeight = 10.textSdp,
-    ),
     labelLarge = TextStyle(
-        fontFamily = ZindigiFontFamily,
+        fontFamily = HospitalFontFamily,
         fontWeight = FontWeight.Medium,
         fontSize = 12.textSdp,
         lineHeight = 13.textSdp,
     ),
     labelMedium = TextStyle(
-        fontFamily = ZindigiFontFamily,
+        fontFamily = HospitalFontFamily,
         fontWeight = FontWeight.Medium,
         fontSize = 11.textSdp,
         lineHeight = 12.textSdp,
     ),
     labelSmall = TextStyle(
-        fontFamily = ZindigiFontFamily,
+        fontFamily = HospitalFontFamily,
         fontWeight = FontWeight.Medium,
         fontSize = 9.textSdp,
         lineHeight = 10.textSdp

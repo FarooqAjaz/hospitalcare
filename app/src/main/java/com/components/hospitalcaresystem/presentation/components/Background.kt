@@ -42,7 +42,7 @@ fun HospitalCareBackground(
 
 @ThemePreviews
 @Composable
-fun ZindigiBackgroundPreview() {
+fun HospitalBackgroundPreview() {
     HospitalCareAppTheme {
         HospitalCareBackground(modifier = Modifier.size(50.dp)) {
 
