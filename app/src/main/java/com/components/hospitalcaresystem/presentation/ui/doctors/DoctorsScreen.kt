@@ -43,8 +43,7 @@ fun DoctorsScreen(
     ScreenContainer {
         Column(
             Modifier
-                .fillMaxWidth()
-                .verticalScroll(rememberScrollState())) {
+                .fillMaxWidth()) {
             SpacerHeight(height = 10.sdp)
             HospitalCareSearchField(onSearch = {})
             SpacerHeight(height = 10.sdp)
