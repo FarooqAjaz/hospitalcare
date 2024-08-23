@@ -45,7 +45,7 @@ val Typography: Typography
     headlineSmall = TextStyle(
         fontFamily = HospitalFontFamily,
         fontWeight = FontWeight.Normal,
-        fontSize = 18.textSdp,
+        fontSize = 16.textSdp,
         lineHeight = 19.textSdp
     ),
     titleLarge = TextStyle(
