@@ -58,4 +58,26 @@ object HospitalCareDataHandler{
         )
     }
 
+    @Composable
+    fun getDashboarDatea(): List<TestItem> {
+        return listOf(
+            TestItem(
+                title = "Appointment",
+                image = R.drawable.img_splash
+            ),
+            TestItem(
+                title = "Ask a Doctor",
+                image = R.drawable.img_splash
+            ),
+            TestItem(
+                title = "Special Visit",
+                image = R.drawable.img_splash
+            ),
+            TestItem(
+                title = "Emergency Call",
+                image = R.drawable.img_splash
+            )
+        )
+    }
+
 }
